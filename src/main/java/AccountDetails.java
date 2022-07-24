@@ -30,15 +30,15 @@ public class AccountDetails {
 
     public void deposit(){
         System.out.println("Podaj ilość wpłacanej gotówki");
-        long kwotawplaty;
-        kwotawplaty = scanner.nextLong();
-        balance = kwotawplaty + balance;
+        long kwotaWplaty;
+        kwotaWplaty = scanner.nextLong();
+        balance = kwotaWplaty + balance;
     }
 
     public void withdrawl(){
         System.out.println("Podaj ilość wypłacanej gotówki");
-        long kwotawyplaty;
-        kwotawyplaty = scanner.nextLong();
-        balance = balance - kwotawyplaty;
+        long kwotaWyplaty;
+        kwotaWyplaty = scanner.nextLong();
+        balance = balance - kwotaWyplaty;
     }
 }
