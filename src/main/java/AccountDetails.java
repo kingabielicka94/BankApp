@@ -45,6 +45,16 @@ public class AccountDetails {
             else {
                 balance = balance-kwotaWyplaty;
         }
+
     }
+    public long getBalance(){
+        return balance;
+    }
+
+    public void setBalance(long balance){
+        this.balance = balance;
+
+    }
+
 
 }
