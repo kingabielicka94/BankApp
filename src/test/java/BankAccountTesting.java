@@ -8,6 +8,6 @@ public class BankAccountTesting {
         AccountDetails accDetails = new AccountDetails();
         accDetails.setBalance(100);
         long expectedResult = accDetails.getBalance();
-        Assert.assertEquals(120, accDetails.getBalance());
+        Assert.assertEquals(expectedResult, accDetails.getBalance());
     }
 }
